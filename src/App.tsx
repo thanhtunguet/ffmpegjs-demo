@@ -51,7 +51,7 @@ function App() {
                         />
                         {selectedFile && (
                             <div className="file-info">
-                                <p>Selected: <strong>{selectedFile.name} < /strong></p>
+                                <p>Selected: <strong>{selectedFile.name} </strong></p>
                                 <p>Size: {(selectedFile.size / 1024 / 1024).toFixed(2)} MB </p>
                             </div>
                         )
@@ -98,7 +98,7 @@ function App() {
                     />
                 </div>
 
-                < div className="features-section">
+                < div className="features-section justify-start">
                     <h3>Features </h3>
                     < ul>
                         <li>✅ Client - side video conversion using FFmpeg.js</li>
