@@ -1,5 +1,4 @@
-import { useState, useRef, useCallback } from 'react';
-import { useCallback, useState } from 'react';
+import { useState, useCallback } from 'react';
 import { ConversionSettings, ConversionProgress } from '../types';
 
 export const useFFmpeg = () => {
